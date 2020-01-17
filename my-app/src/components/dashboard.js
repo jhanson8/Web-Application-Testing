@@ -6,12 +6,12 @@ const Dashboard = (props) => {
   return (
     <div className="dashboard">
     <div className="button">
-    <button onClick={props.addStrike}>
+    <button data-testid='strike' onClick={props.addStrike}>
       Add Strike
     </button>
     </div>
     <div className="button">
-    <button onClick={props.addBall}>
+    <button data-testid='ball' onClick={props.addBall}>
       Add Ball
     </button>
     </div>
